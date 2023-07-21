@@ -1,0 +1,208 @@
+body::before {
+    content: '';
+    background: #535971;
+    width: 100%;
+    height: 436px;
+    display: block;
+    position: absolute; /*para o elemento ficar sobreposto*/
+    left: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+body {
+    background: #EFEFEF;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#page {
+    margin: auto;
+    width: 750px;
+ 
+}
+
+header {
+    margin-top: 140px;
+    margin-bottom: 58px;
+}
+
+header h1, p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Staatliches;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+
+}
+
+header p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    width: 417px;
+}
+
+form {
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+}
+
+fieldset {
+    border: none;
+    width: 622px;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+fieldset p {
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    border: none;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 36px;
+    margin-top: 64px;
+}
+
+
+fieldset input {
+    width: 100%;
+}
+
+#nomeSobrenome {
+    display: flex;
+    gap: 22px;
+    margin-bottom: ;
+}
+
+#nomeSobrenome input {
+    width: 100%;
+}
+
+#nome {
+    width: 100%;
+}
+
+#sobrenome {
+    width: 100%;
+}
+
+label {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    height: 56px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#fieldset2 p {
+    margin-top: 30px;
+}
+
+#fieldset3 p {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}
+
+#tituloMentoria {
+
+    margin-top: 32px;
+    padding-bottom: 8px;
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px
+}
+
+#tituloMentoria2 {
+    margin-top: 16px;
+    padding-bottom: 8px;
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px
+}
+
+#primeiraMentoria {
+    display: flex;
+    gap: 32px;
+}
+
+#time {
+    display: flex;
+    gap: 10px;
+}
+
+#time input {
+    width: 140px;
+}
+
+#data {
+    width: 300px;
+}
+
+#dataBox {
+    width: 300px;
+}
+
+#buttonDiv {
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    height: 160px;
+    margin-bottom: 366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    width: 608px;
+    height: 55.652px;
+    border-radius: 20px;
+    background: #FF5374;
+    border: none;
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#button:hover {
+    background: #c93b58;
+}
